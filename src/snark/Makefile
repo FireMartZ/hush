@@ -147,7 +147,7 @@ else
 endif
 
 ifeq ($(MULTICORE),1)
-	CXXFLAGS += -DMULTICORE -fopenmp
+	CXXFLAGS += -DMULTICORE
 endif
 
 ifeq ($(CPPDEBUG),1)
